@@ -5,6 +5,6 @@ module.exports = async function (env, argv) {
   // Customize the config before returning it.
   devServer: {
     allowedHosts: 'all',
-  },
+  }
   return config;
 };
