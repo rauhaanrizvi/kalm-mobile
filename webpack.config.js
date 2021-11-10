@@ -4,7 +4,7 @@ module.exports = async function (env, argv) {
   const config = await createExpoWebpackConfigAsync(env, argv);
   // Customize the config before returning it.
   devServer: {
-    allowedHosts: 'all',
-  }
+    allowedHosts: 'all'
+  },
   return config;
 };
